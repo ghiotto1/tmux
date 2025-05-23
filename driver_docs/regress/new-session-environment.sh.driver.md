@@ -1,0 +1,6 @@
+# Purpose
+This script is a shell script designed to test the behavior of the `tmux` terminal multiplexer in different environments. It sets up a new `tmux` session with a specific configuration and verifies that the environment variables within the session are set as expected. The script begins by defining the `PATH` and determining the location of the `tmux` executable. It then initializes several temporary files to store scripts and output data, which are used to facilitate the testing process.
+
+The script creates a `tmux` session using a temporary configuration file and executes a shell script within this session. This shell script captures the values of several environment variables, such as `TERM`, `PWD`, `PATH`, `SHELL`, and a custom variable `TEST`, and writes them to an output file. The script then compares the captured output against expected values to ensure that the `tmux` session correctly inherits and sets the environment variables. This process is repeated for different configurations to test various scenarios.
+
+Overall, the script serves as a test suite for verifying the correct setup and behavior of `tmux` sessions in terms of environment variable management. It is a specialized utility script that automates the testing of `tmux` configurations, ensuring that the terminal multiplexer behaves as expected in different environments.
