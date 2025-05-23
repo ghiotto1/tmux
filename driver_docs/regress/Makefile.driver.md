@@ -1,0 +1,2 @@
+# Purpose
+This Makefile automates the execution of shell scripts within the current directory. It dynamically identifies all files with a `.sh` extension, marking them as targets, and ensures they are executed sequentially (not in parallel) by invoking each script with `sh` and pausing for one second between executions. The `.PHONY` directive indicates that `all` and each script target are not actual files, preventing conflicts with files of the same name.

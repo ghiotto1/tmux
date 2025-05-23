@@ -1,0 +1,4 @@
+
+## Files
+- **[config.yml](ISSUE_TEMPLATE/config.yml.driver.md)**: The `config.yml` file in the `tmux` codebase disables the creation of blank issues on GitHub.
+- **[use-this-issue-template.md](ISSUE_TEMPLATE/use-this-issue-template.md.driver.md)**: The `use-this-issue-template.md` file in the `tmux` codebase provides a template for users to follow when reporting issues, including guidelines for describing the problem, steps to reproduce, and required information such as tmux version and platform details.
